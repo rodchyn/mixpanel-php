@@ -1,0 +1,22 @@
+{
+    "name": "mixpanel/php-sdk",
+    "description": "Mixpanel PHP SDK",
+    "keywords": ["mixpanel", "sdk"],
+    "type": "library",
+    "homepage": "https://github.com/mixpanel",
+    "license": "Apache2",
+    "authors": [
+        {
+            "name": "Yura Rodchyn",
+            "homepage": "https://github.com/rodchyn"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "classmap": ["src"]
+    }
+}
